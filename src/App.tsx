@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <svg>
-        <use href={`${Icons}#delete`}/>
       </svg>
     </div>
   );
