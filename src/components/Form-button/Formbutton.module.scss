@@ -1,0 +1,20 @@
+@import "./../../App";
+
+.button {
+display: block;
+outline: none;
+
+width: 200px;
+height: 40px;
+
+background: transparent;
+border: 1px solid $color2;
+border-radius: 11px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: $color2;
+cursor: pointer;
+
+}

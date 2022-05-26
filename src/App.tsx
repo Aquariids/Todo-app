@@ -3,12 +3,11 @@ import './App.scss';
 import Icons from './img/icons.svg';
 
 function App() {
-  console.log(Icons);
   
   return (
-    <div className="App">
-      <svg>
-      </svg>
+    <div className="app">
+      <div className='login'></div>
+      <div className='content'></div>
     </div>
   );
 }

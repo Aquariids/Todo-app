@@ -20,5 +20,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src","src/component","types/svg/index.d.ts"]
+  "include": ["src","src/component","types/svg/index.d.ts","types/scss/index.d.ts"]
 }
