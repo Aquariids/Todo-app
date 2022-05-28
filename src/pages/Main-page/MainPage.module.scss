@@ -1,0 +1,26 @@
+@import '../../variables';
+.main {
+  
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    .wrapper {
+        margin-right: 35px;
+        margin-top: 55px;
+        display: flex;
+        align-items: center;
+        p {
+            margin-left: 15px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+
+
+            color: $color1;
+
+        }
+    }
+}

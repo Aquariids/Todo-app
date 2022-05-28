@@ -1,8 +1,10 @@
-@import "./../../App";
+@import "./../../variables";
 
 .button {
+    
 display: block;
 outline: none;
+margin-bottom: 10px;
 
 width: 200px;
 height: 40px;
@@ -16,5 +18,13 @@ font-weight: 700;
 font-size: 16px;
 color: $color2;
 cursor: pointer;
+transition: all 0.4s linear;
+
+&:hover {  // Здесь делаю по другому нежели как в ButtonTasks, чисто по приколу
+    width: 220px;
+    height: 45px;
+    font-size: 17px;
+    text-shadow: 0 0 2px $color2;
+}
 
 }

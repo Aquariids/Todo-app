@@ -15,7 +15,7 @@ const FormInput: React.FunctionComponent<IFormInputProps> = ({
     className={input}
     type={type}
     value=""
-    placeholder={type === "signIn" ? "Логин" : "Пароль"}
+    placeholder={type === "text" ? "Логин" : "Пароль"}
   />
 );
 

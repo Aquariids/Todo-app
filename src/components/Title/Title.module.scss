@@ -1,0 +1,13 @@
+@import '../../variables';
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    font-weight:700;
+    .spanColor1 {
+        color:$color2;
+    }
+    .spanColor2 {
+        color:$color1;
+    }
+}
