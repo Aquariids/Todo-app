@@ -2,6 +2,7 @@ import * as React from 'react';
 import Title from '../../components/Title/Title';
 import s from './TasksPage.module.scss';
 import ButtonTasks from '../../components/Button/ButtonTasks';
+import TasksList from '../../components/Tasks-list/TasksList';
 
 const{title,addInput,page,buttons} = s
 interface ITasksPageProps {
@@ -17,7 +18,7 @@ const TasksPage: React.FunctionComponent<ITasksPageProps> = (props) => {
         <div><ButtonTasks color="#D75959" text={'Очистить'} onClick={()=>{}}/></div>
         <div><ButtonTasks color="#051021" text={'Добавить'} onClick={()=>{}}/></div>
       </div>
-      
+      <TasksList/>
       </div>
   ) ;
 };
