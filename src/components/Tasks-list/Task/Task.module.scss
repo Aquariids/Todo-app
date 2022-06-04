@@ -1,0 +1,60 @@
+@import '../../../variables';
+
+.task {
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 62px;
+
+    border-bottom: 1px solid $color1;
+    input {
+        display: none;
+    }
+
+
+    .userCheckbox {
+        cursor: pointer;
+        display: block;
+        width: 19px;
+        height: 19px;
+        background: #00C1EB;
+        border-radius: 200%;
+        color: transparent;
+    }
+
+    input:checked + .userCheckbox {
+        background-color: #05EB00;
+    }  
+    
+    
+    .title {
+        width: 149px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px;
+        text-align: center;
+        color: $color1;
+
+    }
+
+    .deleted {
+        cursor: pointer;
+        outline: none;
+        display: block;
+        border: none;
+        background: none;
+        svg{
+            stroke:#D75959;
+            transition: all .2s;
+        }
+        &:hover>svg {
+                stroke: #522121;
+            
+            
+        }
+
+    }
+    
+}
