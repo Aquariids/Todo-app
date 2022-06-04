@@ -10,6 +10,9 @@ const MainPage: React.FunctionComponent<IMainPageProps> = (props) => {
   return(
       <div className={main}>
           <div className={title}><Title/></div>
+          <svg width='55px' height="55px"  viewBox="0 0 24 24">
+    <use href={`${icon}#icon`}/>
+    </svg>
           <div className={wrapper}>
               <svg width='35px' height="28px" viewBox="0 0 15.699 9.2">
                   <use href={`${icon}#arrow`}/>
