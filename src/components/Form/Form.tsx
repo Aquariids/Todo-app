@@ -11,8 +11,8 @@ const Form: React.FunctionComponent<IFormProps> = (props) => {
       <h2 className={title}>Вход</h2>
       <FormInput value={"#"} type="text" />
       <FormInput value={"#"} type="password" />
-      <FormButton onClick={() => {}} text="Войти" hideBorder=''/>
-      <FormButton onClick={() => {}} text="Зарегестрироваться?" hideBorder="none" />
+      <FormButton onClick={() => {}} text="Войти" />
+      <FormButton onClick={() => {}} text="Зарегестрироваться?" />
     </form>
   );
 };

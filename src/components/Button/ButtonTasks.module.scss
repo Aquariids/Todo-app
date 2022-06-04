@@ -8,15 +8,10 @@
     width: 100px;
     height: 35px;
 
-    border: 1px solid $color2;
+    border: 1px solid $color1;
     border-radius: 11px;
 
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 300;
     cursor: pointer;
-    transition: all .2s;
-    &:hover {
-        transform: scale(1.1);
-    }
-
 }

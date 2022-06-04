@@ -14,8 +14,8 @@ const TasksPage: React.FunctionComponent<ITasksPageProps> = (props) => {
       <input className={addInput} type='text' placeholder='Добавить задачу'/>
   
       <div className={buttons}>
-        <div><ButtonTasks color="#D75959" text={'Очистить'} onClick={()=>{}}/></div>
-        <div><ButtonTasks color="#051021" text={'Добавить'} onClick={()=>{}}/></div>
+        <div> <ButtonTasks text={'Очистить'} onClick={()=>{}}/></div>
+        <div> <ButtonTasks text={'Добавить'} onClick={()=>{}}/></div>
       </div>
       
       </div>
