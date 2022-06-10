@@ -1,0 +1,17 @@
+@import '../../variables';
+
+.button {
+    display: block;
+    outline: none;
+    background: transparent;
+
+    width: 100px;
+    height: 35px;
+
+    border: 1px solid $color1;
+    border-radius: 11px;
+
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+}

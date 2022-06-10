@@ -1,0 +1,13 @@
+@import './../../variables';
+
+.login {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    background: $color1;
+    
+    height: 100%;
+
+}

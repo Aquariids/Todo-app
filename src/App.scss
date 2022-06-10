@@ -1,8 +1,9 @@
 .app {
     height: 100%;
     display: grid;
-    grid-template-columns: 570px 1fr;
+    grid-template-columns: 575px 1fr;
     grid-template-areas: "aside content";
+    margin: 0 auto;
 }
 
 .login {
@@ -12,6 +13,7 @@
 
 .content {
     grid-area: content;
+    
 }
-$color1:#051021;
-$color2:#D75959;
+
+

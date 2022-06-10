@@ -1,0 +1,19 @@
+@import './../../variables';
+
+.login {
+    margin: 0 auto;
+    padding-top: 206px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 205px;
+    .title {
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        color: #FFF;
+    }
+
+}
+
