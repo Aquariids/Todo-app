@@ -9,6 +9,7 @@ function App() {
   
   return (
     <div className="app">
+      
       <div className='login'><Auth/></div>
       <div className='content'>
         <Routes>

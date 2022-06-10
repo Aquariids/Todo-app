@@ -11,10 +11,7 @@ const ButtonTasks: React.FunctionComponent<IButtonTasksProps> = ({
   onClick,
 }) => {
   return (
-    <button
-      className={button}
-      onClick={onClick}
-    >
+    <button className={button} onClick={onClick}>
       {text}
     </button>
   );
