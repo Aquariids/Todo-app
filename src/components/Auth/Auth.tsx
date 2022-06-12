@@ -16,8 +16,7 @@ interface IAuthProps {
 const Auth: React.FunctionComponent<IAuthProps> = ({typeForm,login,password,error}) => {
   return (
     <div className={classlogin}>
-      <Form />
-      
+      <Form typeForm={typeForm} login={login} password={password} error={error}/>
     </div>
     
   );

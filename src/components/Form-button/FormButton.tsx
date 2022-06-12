@@ -3,7 +3,7 @@ import s from "./FormButton.module.scss";
 const {button} = s;
 
 interface IFormButtonProps {
-  onClick: () => void;
+  onClick: (e:React.FormEvent<HTMLButtonElement>) => void;
   text: string;
 }
 

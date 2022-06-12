@@ -42,7 +42,9 @@ const authorizationSlice = createSlice({
     toggle: (state, action: PayloadAction<IForm>) => {
       state.typeForm = action.payload;
     },
-    exit: (state) => {},
+    exit: (state) => {
+      localStorage.clear();
+    },
   },
 
   extraReducers: {
