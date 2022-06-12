@@ -1,9 +1,8 @@
 import * as React from "react";
 import Form from "../Form/Form";
 import s from "./Auth.module.scss";
-import icon from '../../img/icons.svg'
 
-const {login,gitIcon} = s;
+const {login} = s;
 
 interface IAuthProps {}
 
