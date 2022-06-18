@@ -34,7 +34,7 @@ const Form: React.FunctionComponent<IFormProps> = ({typeForm,login,password,erro
          <h2 className={title}>Вход</h2>
         <FormInput value={login} type="text" />
         <FormInput value={password} type="password" />
-        <FormButton onClick= {e=>onSubmit(formToggle.SIGN_IN,dispatch,e)} text="Войти" />
+        <FormButton onClick= {e=>onSubmit(formToggle.SIGN_IN,dispatch,e)} text="Зарегестрироваться" />
         <FormButton onClick={e => onToggleForm(formToggle.SIGN_UP, dispatch,e)} text="Войти?"/>
         </>
 }
